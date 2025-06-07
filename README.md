@@ -29,19 +29,22 @@ bash <(curl -s https://raw.githubusercontent.com/xx554/hysteria2-node-setup/main
 证书和密钥路径:
 将 cert 和 key 的路径替换为您自己的 SSL 证书和私钥的路径。
 示例配置片段：
-
+```
 server:
   address: "0.0.0.0:443"
   cert: "/etc/ssl/certs/your_cert.pem"  # 替换为您的证书路径
   key: "/etc/ssl/private/your_key.pem"  # 替换为您的私钥路径
+```
 ### 5. 启动 Hysteria2
 安装和配置完成后，您可以通过以下命令启动 Hysteria2：
-
+```
 hysteria -c ~/hysteria/config.yml
+```
 ### 6. 查看日志
 如果您需要查看 Hysteria2 的运行日志，可以在终端中执行以下命令：
-
+```
 tail -f /var/log/hysteria.log
+```
 （请确保您在配置文件中指定了日志文件的位置。）
 
 ### 7. 停止 Hysteria2
