@@ -6,9 +6,9 @@
 
 运行以下命令以一键安装 Hysteria2 节点：
 
-```bash
+```
 bash <(curl -s https://raw.githubusercontent.com/yourusername/hysteria2-node-setup/main/hysteria_setup.sh)
-
+```
 ## 注意: 请确保你已经在服务器上安装了 curl 和 wget。
 
 ##脚本功能
