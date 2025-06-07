@@ -9,9 +9,9 @@
 ```
 bash <(curl -s https://raw.githubusercontent.com/yourusername/hysteria2-node-setup/main/hysteria_setup.sh)
 ```
-## 注意: 请确保你已经在服务器上安装了 curl 和 wget。
+## 注意: 请确保你已经在服务器上安装了 curl 和 wget
 
-##脚本功能
+### 脚本功能
 更新系统软件包
 安装必要的依赖
 下载并安装 Hysteria2
