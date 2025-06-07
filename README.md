@@ -11,7 +11,7 @@
 ### 2. 下载和运行脚本
 您可以通过以下命令快速下载并运行安装脚本：
 ```
-bash <(curl -s https://raw.githubusercontent.com/yourusername/hysteria2-node-setup/main/hysteria_setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/xx554/hysteria2-node-setup/main/hysteria_setup.sh)
 ```
 ### 注意: 请将 yourusername 替换为您的 GitHub 用户名。
 
